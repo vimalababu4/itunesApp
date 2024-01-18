@@ -1,0 +1,9 @@
+<ul class="list-group">
+	<li class="list-group-item"
+	    *ngFor="let album of albums">
+		<img src="{{album.artworkUrl60}}">
+		<a target="_blank"
+		   href="{{album.collectionViewUrl}}">{{ album.collectionName }}
+		</a>
+	</li>
+</ul>
